@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    
+}
+
+/* =========================
+   Header section with container named header (class) that houses
+   rest of container items that has header logo,nav links,website text,button and image placeholder
+========================= */
+
+.header_section {
+    background: #1f2937;
+    color: white;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    padding-right: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+    
+}
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin-bottom:100px;
+   
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    Color: #F9FAF8;
+    
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+   
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.header-content-text {
+    flex: 1;
+    max-width: 600px;
+    Color: #F9FAF8;
+    font-weight: 900;
+    
+}
+
+.header-content-text h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    
+}
+
+.header-content-text p {
+    color: #d1d5db;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+   
+}
+
+button {
+    background: #3882f6;
+    color:#1F2937;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.header-image {
+    flex: 1;
+    height: 220px;
+    background: #6b7280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+/* =========================
+   INFORMATION SECTION
+========================= */
+
+.information {
+    padding: 50px 12%;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+
+.information h2 {
+    font-size: 36px;
+    margin-bottom: 45px;
+    Color: #1F2937;
+    
+}
+
+/* FLEXBOX CARDS */
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    
+
+}
+
+.image {
+    width: 160px;
+   
+}
+
+.image-area {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.image p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+
+
+/* =========================
+   QUOTE SECTION
+========================= */
+
+.quote {
+    background: #e5e7eb;
+    padding: 80px 20%;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 36px;
+    Color: #1F2937;
+    
+}
+
+.quote p {
+    font-size: 30px;
+    font-style: italic;
+    color: #4b5563;
+    line-height: 1.4;
+    display: flex;
+    Font-style: italic;
+    
+}
+
+.quote strong {
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 18px;
+    
+}
+
+/* =========================
+   CALL TO ACTION
+========================= */
+
+.cta {
+    background: #3882f6;
+    color: white;
+
+     margin: 60px 12%;
+     padding: 35px 70px;
+     border-radius: 8px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+}
+
+.cta h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.cta p {
+    color: #e5e7eb;
+}
+
+.cta button {
+    border: 2px solid white;
+    padding: 8px 25px;
+}
+
+
+.footer_end h3{
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
